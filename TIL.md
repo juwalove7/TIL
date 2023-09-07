@@ -93,7 +93,7 @@ onclick="return false"
 <input id="inputNumId" placeholder="'-'를 제외하고 입력해주세요." />
 
 <script>
-document.getElementById("inputNumId").value = "01012345678";\
+document.getElementById("inputNumId").value = "01012345678";
 </script>
 ```
 
