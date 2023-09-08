@@ -1,5 +1,4 @@
 # TIL
-<p>
 9/7
 
 1. class 를 띄워쓰기 기준으로 class 명을 여러개 줄 수 있다.
@@ -113,7 +112,7 @@ document.getElementById("inputNumId").value = "01012345678";
 .class명::before { content: "*" }  ->  class로 지정된 것 앞에 *를 넣는다.
 .class명::before { content: "*" }  ->  class로 지정된 것 뒤에 *를 넣는다.
 ```
-</p>
+<br>
 
 9/8
 
