@@ -112,7 +112,7 @@ document.getElementById("inputNumId").value = "01012345678";
 .class명::before { content: "*" }  ->  class로 지정된 것 앞에 *를 넣는다.
 .class명::before { content: "*" }  ->  class로 지정된 것 뒤에 *를 넣는다.
 ```
-<br><br><br>
+<br><br><br><br><br><br>
 
 9/8
 
