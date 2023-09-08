@@ -1,4 +1,5 @@
 # TIL
+
 9/7
 
 1. class 를 띄워쓰기 기준으로 class 명을 여러개 줄 수 있다.
@@ -7,10 +8,9 @@
 <button class="all__btn img__btn img__btn update__btn">
 ```
 
-2. table 에서 colgroup 은 table 의 첫번째 자식 요소로 배치되며, 각 그룹을 나타내는 
-    
-    col 요소를 포함한다.
-    
+2. table 에서 colgroup 은 table 의 첫번째 자식 요소로 배치되며, 각 그룹을 나타내는
+
+   col 요소를 포함한다.
 
 ```jsx
 <table class="tableClass">
@@ -52,7 +52,7 @@
 4. placeholder 는 입력 필드가 비어 있을 때 보이는 임시 텍스트를 설정할 수 있다.
 
 ```jsx
-placeholder="test"
+placeholder = "test";
 ```
 
 5. maxlength 는 입력 필드에 제한된 길이만큼 입력하도록 할 수 있다.
@@ -62,11 +62,10 @@ placeholder="test"
 ```
 
 6. readonly 는 해당 입력 필드를 읽기 전용(read-only) 상태로 만든다.
-    
-    읽기 전용 필드는 사용자가 내용을 편집하거나 수정할 수 없으며, 
-    
-    단순히 내용을 표시하거나 읽을 수만 있다.
-    
+
+   읽기 전용 필드는 사용자가 내용을 편집하거나 수정할 수 없으며,
+
+   단순히 내용을 표시하거나 읽을 수만 있다.
 
 ```jsx
 <input type="text" readonly="readonly">
@@ -75,16 +74,17 @@ placeholder="test"
 7. disabled 는 사용자에게 특정 조건이나 상황에서 폼 요소를 비활성화 하는데 사용한다.
 
 ```jsx
-<button type="submit" disabled="disabled">전송</button>
+<button type="submit" disabled="disabled">
+  전송
+</button>
 ```
 
 8. 기본적으로 웹 브라우저는 클릭 이벤트가 발생하면 해당 요소에 연결된 기본 동작(예: 링크를 따라가거나 폼을 제출하는 등)을 수행하려고 한다.
-    
-    그러나 **`onclick="return false"`**를 사용하면 이 기본 동작을 중지할 수 있다.
-    
+
+   그러나 **`onclick="return false"`**를 사용하면 이 기본 동작을 중지할 수 있다.
 
 ```jsx
-onclick="return false"
+onclick = "return false";
 ```
 
 9. input 안에 placeholder 내용이 아닌 id 로 지정해준 걸로 value의 내용을 집어넣을 수 있다.
@@ -97,10 +97,9 @@ document.getElementById("inputNumId").value = "01012345678";
 </script>
 ```
 
-10. **`oninput`** 이벤트는 사용자가 입력 필드에 텍스트를 입력하거나 수정할 때마다 발생하며, 
-    
+10. **`oninput`** 이벤트는 사용자가 입력 필드에 텍스트를 입력하거나 수정할 때마다 발생하며,
+
     보통 실시간으로 입력 내용을 검증하거나 처리하는 데 사용된다.
-    
 
 ```jsx
 <input oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" />
@@ -112,6 +111,7 @@ document.getElementById("inputNumId").value = "01012345678";
 .class명::before { content: "*" }  ->  class로 지정된 것 앞에 *를 넣는다.
 .class명::before { content: "*" }  ->  class로 지정된 것 뒤에 *를 넣는다.
 ```
+
 <br><br>
 
 9/8
